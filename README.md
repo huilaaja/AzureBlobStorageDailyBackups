@@ -3,8 +3,8 @@
 <ul>
 	<li>Really simple script to automate backups and cleaning old backups.</li>
 	<li>Work as well for weekly and monthly backups.</li>
-	<li>Uses Azure Blob storage for backups because it's cheap, secure, fast and easily manageable storage.</li>
-	<li>Prices start from ~2€/100GB/monthly.</li>
+	<li>Uses Azure Blob storage for backups because it's cheap, secure, fast and easily maintainable.</li>
+	<li>Azure blob storage prices start from ~2€/100GB/month.</li>
 </ul>
 <h2>Features</h2>
 <ol>
