@@ -1,5 +1,3 @@
-# AzureBlobStorageDailyBackups
-
 <h1>Azure Blob Storage Daily Backups</h1>
 
 <ul>
@@ -7,7 +5,6 @@
 	<li>Work as well for weekly and monthly backups.</li>
 	<li>Uses Azure Blob storage for backups because it's cheap, secure, fast and easily manageable storage.</li>
 	<li>Prices start from ~2€/100GB/monthly.</li>
-	<li></li>
 </ul>
 <h2>Features</h2>
 <ol>
@@ -15,7 +12,7 @@
 	<li>Copies zip to blob storage in daily storage.</li>
 	<li>Cleans old zip files.</li>
 </ol>
-<h2>TOOLS for scripts</h2>
+<h2>Credits for the tools that scripts uses</h2>
 <ul>
 	<li>
 		AzCopy<br/>
