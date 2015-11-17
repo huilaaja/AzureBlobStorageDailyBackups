@@ -32,9 +32,9 @@ echo Runing backup %dateTag%
 "%physicalPath%AzCopy\AzCopy.exe" /Source:%relativeTempFolder% /Dest:%dest% /DestKey:%destKey% /Y /V:Logs\log-%dateTag%.txt
 
 echo Cleaning old backups
-"%physicalPath%AzCleanup\AzureStorageCleanup.exe" -storagename %storageName% -storagekey  %destKey% -container %container% -mindaysold  %minDaysOld%
+"%physicalPath%AzCleanup\AzureStorageCleanup.exe" -storagename %storageName% -storagekey  %destKey% -container %container% -mindaysold  %minDaysOld% -recursive
 
-:: cleanup
+echo cleaning temp folder
 call RD /S /Q "%relativeTempFolder%"
 
 ::pause
